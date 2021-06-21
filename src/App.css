@@ -1,5 +1,50 @@
 .main {
+  background-color: lightgrey;
+}
+
+.content {
   height: 100%;
   padding: 15px;
   display: flex;
+  background-color: white;
+}
+
+.content_with-left-sidebar {
+  margin-left: 200px;
+}
+
+.content_with-right-sidebar {
+  margin-right: 200px;
+}
+
+.button {
+  font-size: 60px;
+  right: 0;
+  color: steelblue;
+  background-color: transparent;
+  border: 0;
+  position: fixed;
+  padding: 0;
+  display: flex;
+  height: 100%;
+  top: 0;
+  align-items: center;
+}
+
+.button_left {
+  right: auto;
+  left: 0;
+  transform: scaleX(-1);
+}
+
+.button_reverse.button_left {
+  left: 140px;
+  transform: none;
+  box-shadow: 10px 0 10px grey;
+}
+
+.button_reverse.button_right {
+  right: 140px;
+  transform: scaleX(-1);
+  box-shadow: 10px 0 10px grey;
 }
