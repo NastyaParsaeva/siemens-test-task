@@ -1,0 +1,46 @@
+.sidebar {
+  width: 265px;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sidebar__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0;
+}
+
+.sidebar__input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.sidebar__values-title {
+  margin-bottom: 5px;
+}
+
+.sidebar-item {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.sidebar-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.sidebar-item__time {
+  color: grey;
+}
+
+.sidebar-item__value {
+  font-weight: bold;
+}
+
+.sidebar-item__button {
+  padding: 0px 10px;
+}
